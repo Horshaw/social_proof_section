@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+}
+
+body {
+  background-image: url("images/bg-pattern-top-mobile.svg"), url("images/bg-pattern-bottom-mobile.svg");
+  background-position: top left, bottom right;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+.intro h1 {
+  color: #502050;
+  font-weight: 700;
+  text-align: center;
+  font-size: 28px;
+}
+.intro p {
+  font-size: 15px;
+  text-align: center;
+  font-weight: 400;
+  color: #b3adb3;
+}
+
+.baseline {
+  width: 347px;
+}
+
+.notes {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-inline: 5%;
+}
+
+li {
+  background-color: #f7f2f7;
+  border-radius: 10px;
+  text-align: center;
+  margin: 15px;
+  padding: 3px;
+}
+li img {
+  margin-inline: 4px;
+}
+li p {
+  color: #502050;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.commentaires {
+  display: flex;
+  flex-direction: column;
+  margin-inline: 5%;
+}
+
+.avis {
+  background-color: #502050;
+  border-radius: 10px;
+  margin-inline: 5%;
+  margin: 15px;
+  padding: 45px 20px;
+}
+.avis img {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+.avis p {
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
+  margin: 0;
+}
+
+.identite {
+  display: flex;
+}
+
+h3 {
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
+  margin: 0 0 0 16px;
+}
+
+h4 {
+  font-size: 15px;
+  color: #ee68a4;
+  font-weight: 400;
+  margin: 8px 0 16px 16px;
+}
+
+@media screen and (min-width: 1154px) {
+  body {
+    background-image: url("images/bg-pattern-top-desktop.svg"), url("images/bg-pattern-bottom-desktop.svg");
+    padding: 6%;
+    margin: 0;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .intro {
+    align-items: flex-start;
+    margin-top: 0;
+  }
+  .intro h1 {
+    text-align: left;
+    font-size: 45px;
+    margin-bottom: 0;
+  }
+  .intro p {
+    text-align: left;
+    width: 449px;
+    line-height: 1.5;
+  }
+
+  .commentaires {
+    margin-inline: 0;
+    margin-top: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .avis {
+    margin-inline: 0;
+  }
+
+  #Colton {
+    margin-top: 0;
+    margin-bottom: 84px;
+  }
+
+  #Irene {
+    margin-inline: 3%;
+    margin-top: 42px;
+    margin-bottom: 42px;
+  }
+
+  #Anne {
+    margin-top: 84px;
+    margin-bottom: 0;
+  }
+
+  .notes {
+    justify-content: space-evenly;
+  }
+
+  .notations {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  li {
+    box-sizing: content-box;
+    width: 411px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-inline: 15px;
+    margin-top: 0;
+  }
+  li p {
+    color: #502050;
+    font-weight: 700;
+    font-size: 15px;
+  }
+
+  .review {
+    margin-left: 0;
+  }
+
+  .guru {
+    margin-left: 52px;
+  }
+
+  .tech {
+    margin-left: 104px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
